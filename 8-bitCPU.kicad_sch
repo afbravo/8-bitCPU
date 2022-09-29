@@ -1,0 +1,258 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid fd25ffe2-75bf-49c6-b951-2d88aef03f1d)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 83.82 133.985) (size 31.115 28.575) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 15164d6e-b3f2-4c84-9e3b-4c9aa069708a)
+    (property "Sheet name" "Control Logic" (id 0) (at 83.82 133.2734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "controlLogic.kicad_sch" (id 1) (at 83.82 163.1446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 168.275 89.535) (size 32.385 29.845) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 18083827-e37c-4d51-b464-7c014ca1ec54)
+    (property "Sheet name" "Program Counter" (id 0) (at 168.275 88.8234 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "pc.kicad_sch" (id 1) (at 168.275 119.9646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 41.275 132.715) (size 31.115 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 467b503c-58a8-49d0-a992-8a09c4c38c22)
+    (property "Sheet name" "Output Register" (id 0) (at 41.275 132.0034 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "out.kicad_sch" (id 1) (at 41.275 162.5096 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 85.725 89.535) (size 30.48 28.575) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7bea4472-abb0-44fe-b32c-3b2b8b271c9a)
+    (property "Sheet name" "Memory Address Register" (id 0) (at 85.725 88.8234 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "mar.kicad_sch" (id 1) (at 85.725 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 168.275 34.925) (size 31.75 28.575) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 905433ab-8774-42ef-b338-f8a2f84a4ca8)
+    (property "Sheet name" "Instruction Register" (id 0) (at 168.275 34.2134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "instructionRegister.kicad_sch" (id 1) (at 168.275 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 40.64 89.535) (size 29.21 28.575) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9d11f234-6e2a-4cae-9d04-366eff72c87d)
+    (property "Sheet name" "ALU" (id 0) (at 40.64 88.8234 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "alu.kicad_sch" (id 1) (at 40.64 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 40.005 34.925) (size 28.575 24.765) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid b05a0b7f-8661-480b-b09e-11f89f5b39ac)
+    (property "Sheet name" "Clock" (id 0) (at 40.005 34.2134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "clock.kicad_sch" (id 1) (at 40.005 60.2746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 85.09 34.925) (size 27.94 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid b30dc03b-57fb-4414-91a4-3c732ab7b0da)
+    (property "Sheet name" "Register A" (id 0) (at 85.09 34.2134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "rregisterA.kicad_sch" (id 1) (at 85.09 60.9096 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 126.365 88.9) (size 31.75 29.845) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid d4ade52b-74fb-4e38-8c30-ae354d62923c)
+    (property "Sheet name" "Random Access Memory" (id 0) (at 126.365 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "ram.kicad_sch" (id 1) (at 126.365 119.3296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 129.54 34.29) (size 27.305 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid e5cb4d86-e270-4a16-8e84-22b2ae1b7bb8)
+    (property "Sheet name" "Register B" (id 0) (at 129.54 33.5784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "registerB.kicad_sch" (id 1) (at 129.54 61.5446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac" (page "2"))
+    (path "/b30dc03b-57fb-4414-91a4-3c732ab7b0da" (page "3"))
+    (path "/e5cb4d86-e270-4a16-8e84-22b2ae1b7bb8" (page "4"))
+    (path "/905433ab-8774-42ef-b338-f8a2f84a4ca8" (page "5"))
+    (path "/9d11f234-6e2a-4cae-9d04-366eff72c87d" (page "6"))
+    (path "/7bea4472-abb0-44fe-b32c-3b2b8b271c9a" (page "7"))
+    (path "/d4ade52b-74fb-4e38-8c30-ae354d62923c" (page "8"))
+    (path "/18083827-e37c-4d51-b464-7c014ca1ec54" (page "9"))
+    (path "/467b503c-58a8-49d0-a992-8a09c4c38c22" (page "10"))
+    (path "/15164d6e-b3f2-4c84-9e3b-4c9aa069708a" (page "11"))
+  )
+
+  (symbol_instances
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/11af368c-6f2d-4bb6-b481-c1f7e0dbf463"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/266c961a-47d4-4a23-9e51-a30311ed17b5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/2c963752-eed0-449c-952e-be533e882e1d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/39aca280-2b2c-4294-abe2-76730945374f"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/3d5b0860-0f46-4bfa-92cd-7bdd4e5338f5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/6fad60a3-e91b-468e-a131-6fddc9b62481"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/aabc67ac-40fe-46ec-b5bd-541238925890"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/d2a96212-a346-45a9-8248-b154481460b4"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/fc426cd6-db6e-40ed-bfa2-14d48eaf925e"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/116e4d72-40ba-4971-8414-b12853956065"
+      (reference "C?") (unit 1) (value "0.01u") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/38f1d837-793e-400e-9e08-37396ba9ecbe"
+      (reference "C?") (unit 1) (value "0.01u") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/54877cae-c7ad-4ad3-b61d-23770d4c79a7"
+      (reference "C?") (unit 1) (value "0.1u") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/6931965e-0e6c-4532-b511-b25425926527"
+      (reference "C?") (unit 1) (value "1u") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/6cd39041-1aaf-4152-861d-2ca8c549a174"
+      (reference "C?") (unit 1) (value "0.1u") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/846dab82-f779-4288-84c5-e796d204a819"
+      (reference "C?") (unit 1) (value "0.01u") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/fbe4e565-65c4-4535-a15b-c878c5ad34d3"
+      (reference "C?") (unit 1) (value "0.1u") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/5f5fed13-84ae-4500-9745-c03338c08556"
+      (reference "D?") (unit 1) (value "BLUE_LED") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/23435b3d-07e8-45d9-8f11-f848b370300f"
+      (reference "R?") (unit 1) (value "1K") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/39af1d72-ca98-4208-952f-d6e5c508b905"
+      (reference "R?") (unit 1) (value "1M") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/80af5c35-4c1c-4b7c-b0d2-2c944f026182"
+      (reference "R?") (unit 1) (value "1k") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/ccf23deb-e604-4091-8a66-c22cd42ea4f5"
+      (reference "R?") (unit 1) (value "1K") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/d9b362f6-4f41-4a7a-b01c-bde2b3185261"
+      (reference "R?") (unit 1) (value "1K") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/ebbbae9d-3e00-4ae2-9e9f-d8ed6a41a6cb"
+      (reference "R?") (unit 1) (value "220") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/f9d31469-a37d-4adc-b658-66f43017b4e8"
+      (reference "R?") (unit 1) (value "1K") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/7b64a9b8-debf-4c23-a627-d0f3c4643dec"
+      (reference "RV?") (unit 1) (value "1M") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/c0bdb36d-373a-4aa9-aa2b-4fff69bbb756"
+      (reference "SW?") (unit 1) (value "SW_Push") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/c724c492-1117-48fc-bf03-76af71e56729"
+      (reference "SW?") (unit 1) (value "SW_SPDT") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/0c0a6447-7500-413b-b057-aa5b6040f382"
+      (reference "U?") (unit 1) (value "LM555xN") (footprint "Package_DIP:DIP-8_W7.62mm")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/2073e7d4-2361-41ef-a716-4e720656fef8"
+      (reference "U?") (unit 1) (value "LM555xN") (footprint "Package_DIP:DIP-8_W7.62mm")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/53881332-3108-456f-be39-222c5a5601b1"
+      (reference "U?") (unit 1) (value "74LS04") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/ac88dc16-79ba-4093-bb55-e95b3ac605f3"
+      (reference "U?") (unit 1) (value "LM555xN") (footprint "Package_DIP:DIP-8_W7.62mm")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/b2cd5efc-8c7b-4e19-8886-0be7daf42217"
+      (reference "U?") (unit 1) (value "74LS32") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/d2c329b4-ef7e-4dc9-9f2b-a5a8c1b84137"
+      (reference "U?") (unit 1) (value "74LS08") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/3dfce678-7fe7-4297-a14e-2a00ed1e61f7"
+      (reference "U?") (unit 2) (value "74LS04") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/569d3931-88c1-498e-80a6-d65fcfdad726"
+      (reference "U?") (unit 2) (value "74LS08") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/18de76d0-b297-417c-9995-2608563c1822"
+      (reference "U?") (unit 3) (value "74LS04") (footprint "")
+    )
+    (path "/b05a0b7f-8661-480b-b09e-11f89f5b39ac/4821da7b-3d62-4fc8-ab12-3a6e7d83fe22"
+      (reference "U?") (unit 3) (value "74LS08") (footprint "")
+    )
+  )
+)
